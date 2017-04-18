@@ -1,0 +1,47 @@
+
+<div class="container">
+<div class="col-sm-6 col-sm-offset-3">
+{{name}}
+{{title}}
+    <h1><span class="fa fa-sign-in"></span> Login</h1>
+
+    <!-- LOGIN FORM -->
+    <form action="/login" method="post">
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" class="form-control" name="username">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg">Login</button>
+        <input type="checkbox" checked="checked" name="remember-me"> Remember me
+    </form>
+
+    <hr>
+</div>
+</div>
+<!-- <table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Birthday</th>
+      <th>Vehicle</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="driver in drivers">
+      <td>{{driver.ranking}}</td>
+      <td>{{driver.firstName}}</td>
+      <td>{{driver.lastName}}</td>
+      <td>{{driver.birthday}}</td>
+      <td>{{driver.vehicle}}</td>
+      <td><a>Open</a></td>
+    </tr>
+  </tbody>
+</table> -->
